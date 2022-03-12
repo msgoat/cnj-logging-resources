@@ -2,7 +2,7 @@
 
 Manages all attached resources used by the logging showcases.
 
-Will install a PostgreSQL instance shared by all monitoring showcases. 
+Will install a PostgreSQL instance shared by all logging showcases. 
 
 ## Status
 
