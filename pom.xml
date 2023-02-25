@@ -245,9 +245,10 @@
                                     <debug>true</debug>
                                     <timeout>90s</timeout>
                                     <values>
-                                        <postgresql.postgresqlPostgresPassword>${postgres.admin.password}</postgresql.postgresqlPostgresPassword>
-                                        <postgresql.postgresqlPassword>${postgres.user.password}</postgresql.postgresqlPassword>
-                                        <postgresql.postgresqlUsername>${postgres.user.name}</postgresql.postgresqlUsername>
+                                        <secret.adminPassword>${postgres.admin.password}</secret.adminPassword>
+                                        <secret.connectionPassword>${postgres.user.password}</secret.connectionPassword>
+                                        <secret.connectionUser>${postgres.user.name}</secret.connectionUser>
+                                        <postgresql.auth.username>${postgres.user.name}</postgresql.auth.username>
                                     </values>
                                 </configuration>
                             </execution>
